@@ -7,7 +7,7 @@
 </h4>
 
 <p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/viniciumedeiros/bank">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/viniciumedeiros/bankon">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/viniciumedeiros/bankon">
 	
@@ -79,6 +79,12 @@ http://127.0.0.1:8000/
 ### Database Configuration
 
 ```bash
+# Create .env file
+cp .env.example .env
+
+# Generate project key
+$ php artisan key:generate
+
 # Open the .env file and set your database credentials
 DB_DATABASE=bank
 DB_USERNAME=root
